@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashraj Ghemud - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="background-wrap">
+        <div class="bubble x1"></div>
+        <div class="bubble x2"></div>
+        <div class="bubble x3"></div>
+        <div class="bubble x4"></div>
+        <div class="bubble x5"></div>
+        <div class="bubble x6"></div>
+        <div class="bubble x7"></div>
+        <div class="bubble x8"></div>
+        <div class="bubble x9"></div>
+        <div class="bubble x10"></div>
+    </div>
+
+    <!-- Header / Navigation -->
+
+    <header class="site-header">
+        <div class="nav-wrapper">
+            <a class="nav-logo" href="#hero" aria-label="Go to top">
+                <img src="portfolio_logo.png" alt="Team portfolio logo" />
+            </a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu" />
+            <label for="nav-toggle" class="nav-burger" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </label>
+            <nav class="nav-links" aria-label="Primary">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+        <span class="scroll-progress" aria-hidden="true"></span>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-fx" aria-hidden="true">
+            <span class="hero-orb hero-orb--primary"></span>
+            <span class="hero-orb hero-orb--secondary"></span>
+            <span class="hero-orb hero-orb--tertiary"></span>
+            <span class="hero-grid"></span>
+            <span class="hero-aurora"></span>
+            <span class="hero-particles"></span>
+        </div>
+        <div class="hero-content">
+            <div class="profile-container">
+                <div class="profile-image">
+                    <div class="profile-placeholder">YG</div>
+                </div>
+            </div>
+            <div class="typer-container">
+                <div class="typer-text" id="typer-text">
+                    <span class="typer-line">I'm Yashraj Ghemud, a B.Tech IT undergraduate with a passion for
+                        cutting-edge technology and creative problem-solving. 🚀</span>
+                    <span class="typer-line">Skilled in Python 🐍, full-stack development 🌐, and app creation 📱, I
+                        also dive deep into cybersecurity—penetration testing 🛡️, RATs 🕷️, ransomware defense 🔒,
+                        network hijacking prevention 🌐, SQL & database design 🗄️—and craft immersive 3D animations 🎨,
+                        games 🎮, and AI-powered experiences 🤖.</span>
+                    <span class="typer-line">Always exploring generative AI and prompt engineering ✨, I thrive on
+                        transforming bold ideas into robust, user-centric solutions. Let's build the future together!
+                        🌟</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects" data-bg="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-tech="AI/ML">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-icon">🤖</div>
+                            <h3>Mood-Based Song Prediction</h3>
+                            <p>AI-powered app that analyzes facial expressions</p>
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>AI/ML</span>
+                                <span>CV</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Face Scanning Technology</h3>
+                            <p>Advanced computer vision algorithms detect emotions and recommend personalized music
+                                experiences.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-tech="Web">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-icon">🎓</div>
+                            <h3>College Events Website</h3>
+                            <p>Dynamic platform for managing events</p>
+                            <div class="tech-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Responsive Design</h3>
+                            <p>Fully responsive event management system with real-time updates and interactive
+                                calendars.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-tech="AR">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-icon">🕶️</div>
+                            <h3>Animated Snapchat Lenses</h3>
+                            <p>Custom AR lenses with advanced animations</p>
+                            <div class="tech-tags">
+                                <span>AR/VR</span>
+                                <span>3D</span>
+                                <span>Lens Studio</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Immersive Experience</h3>
+                            <p>Two custom AR lenses featuring particle effects, face tracking, and interactive
+                                animations.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-tech="Security">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-icon">🛡️</div>
+                            <h3>Cybersecurity Tools</h3>
+                            <p>Suite of penetration testing tools</p>
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>Security</span>
+                                <span>Networking</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Ethical Hacking</h3>
+                            <p>Advanced security analysis tools for vulnerability assessment and network protection.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-tech="Web">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-icon">🎨</div>
+                            <h3>Personal Portfolio</h3>
+                            <p>Animated portfolio website</p>
+                            <div class="tech-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Animation</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>CSS-only Animations</h3>
+                            <p>Spectacular animations and interactions built entirely with CSS, no JavaScript required.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-tech="Gaming">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="project-icon">🎮</div>
+                            <h3>3D Car Game</h3>
+                            <p>3D Car Game in it's magic engine</p>
+                            <div class="tech-tags">
+                                <span>JAVA</span>
+                                <span>It's Magic Engine</span>
+                                <span>Game Dev</span>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Procedural Generation</h3>
+                            <p>3D CAR game with procedural world.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills" data-bg="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">🐍</div>
+                    <div class="skill-info">
+                        <h3>Python</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="90"></div>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">🌐</div>
+                    <div class="skill-info">
+                        <h3>Game Development</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="85"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">🛡️</div>
+                    <div class="skill-info">
+                        <h3>Cybersecurity</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="80"></div>
+                        </div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">🎨</div>
+                    <div class="skill-info">
+                        <h3>3D Animation</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="75"></div>
+                        </div>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">🤖</div>
+                    <div class="skill-info">
+                        <h3>AI/ML</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="85"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">💻</div>
+                    <div class="skill-info">
+                        <h3>Web Development</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="88"></div>
+                        </div>
+                        <span class="skill-percentage">88%</span>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">📱</div>
+                    <div class="skill-info">
+                        <h3>App Development</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="82"></div>
+                        </div>
+                        <span class="skill-percentage">82%</span>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">🗄️</div>
+                    <div class="skill-info">
+                        <h3>Database Design</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="78"></div>
+                        </div>
+                        <span class="skill-percentage">78%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements" id="achievements" data-bg="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-glow"></div>
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Hackathon Finalist</h3>
+                    <p>First place in college coding competition</p>
+                    <div class="achievement-shine"></div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-glow"></div>
+                    <div class="achievement-icon">🔒</div>
+                    <h3>Scholarship</h3>
+                    <p>Received a scholarship of 2.5lakh in 11th</p>
+                    <div class="achievement-shine"></div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-glow"></div>
+                    <div class="achievement-icon">⭐</div>
+                    <h3>AI Project Recognition</h3>
+                    <p>Featured in tech showcase for innovative AI solution</p>
+                    <div class="achievement-shine"></div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-glow"></div>
+                    <div class="achievement-icon">💻</div>
+                    <h3>Open Source Contributor</h3>
+                    <p>Active contributor to multiple GitHub projects</p>
+                    <div class="achievement-shine"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact" data-bg="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:yashraj.ghemud2007@gmail.com"
+                                target="_blank">yashraj.ghemud2007@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://linkedin.com/in/yashraj-ghemud"
+                                target="_blank">linkedin.com/in/yashraj-g</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🔗</div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/yashraj-ghemud" target="_blank">github.com/yashrajghemud</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">🌐</div>
+                        <div class="contact-details">
+                            <h3>Portfolio</h3>
+
+                            <a href="https://portfolio-yashrajghemud.vercel.app/"
+                                target="_blank">yashrajghemud_portfolio</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="contact-cta">
+                    <div class="cta-glow"></div>
+                    <h3>Ready to collaborate?</h3>
+                    <p>Let's build the future together! 🚀</p>
+                    <a href="mailto:yashraj.ghemud2007@gmail.com" class="cta-button" target="_blank">
+                        <div class="data-container">
+                            <span class="btn">Get In Touch</span>
+                        </div>
+                        <div class="button-glow"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="#hero" class="to-top" aria-label="Back to top" title="Back to top">↑</a>
+
+    <!-- Site Footer -->
+    <footer class="site-footer" id="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#hero" class="footer-logo" aria-label="Go to top">
+                    <img src="portfolio_logo.png" alt="Team portfolio logo" />
+                    <span class="footer-title">Yashraj Ghemud</span>
+                </a>
+                <p class="footer-tagline">Crafting interactive, performant experiences with modern CSS.</p>
+            </div>
+
+            <nav class="footer-nav" aria-label="Footer">
+                <h3 class="footer-heading">Explore</h3>
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer-social">
+                <h3 class="footer-heading">Connect</h3>
+                <ul class="social-list">
+                    <li><a href="mailto:yashraj.ghemud2007@gmail.com" aria-label="Email">📧</a></li>
+                    <li><a href="https://linkedin.com/in/yashraj-ghemud" target="_blank" rel="noopener"
+                            aria-label="LinkedIn">💼</a></li>
+                    <li><a href="https://github.com/yashraj-ghemud" target="_blank" rel="noopener"
+                            aria-label="GitHub">🐙</a></li>
+                    <li><a href="#hero" aria-label="Back to top">⬆️</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-inner">
+                <span class="copyright">© 2025 Yashraj Ghemud. All rights reserved.</span>
+                <a class="footer-to-top" href="#hero" aria-label="Back to top">Back to top ↑</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
