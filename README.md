@@ -1,5 +1,32 @@
-# portfolio-2
-> A single-page, CSS-first personal portfolio (index.html + style.css) built to showcase projects, skills, achievements and contact details. JavaScript is intentionally minimal.
+<p align="center">
+  <img src="./.github/readme-assets/signal.gif" alt="Animated signal / product visual for portfolio-2" width="100%" />
+</p>
+
+<h1 align="center">portfolio-2</h1>
+
+<p align="center"><strong>A single-page, CSS-first personal portfolio (index.html + style.css) built to showcase projects, skills, achievements and contact details. JavaScript is intentionally minimal.</strong></p>
+
+<p align="center"><code>REPO//SIGNAL</code> · <code>SIGNAL / PRODUCT</code> · <code>LOOPING README EXPERIENCE</code></p>
+
+## Live signal
+
+| Lens | Readout |
+| --- | --- |
+| Portfolio lane | **SIGNAL / PRODUCT** |
+| Code surface | **6** tracked files observed |
+| Primary materials | **Markdown, JavaScript, HTML, CSS** |
+| Verification | **0** test-related files observed |
+
+> A moving scan of the project surface. The animated frame above is a lightweight visual signature; the sections below remain the source of truth for implementation details.
+
+## Motion map
+
+`SIGNAL` → `SHAPE` → `RELEASE`
+
+Use the animated banner as the first signal, then move into the implementation dossier. The recommended next step is to verify the documented setup command against the repository scripts before extending the project.
+
+<details open>
+<summary><strong>Open the full project dossier</strong></summary>
 
 ## Overview
 A lightweight, static portfolio site implemented as a single HTML file and a single stylesheet. UI and animations are implemented primarily with modern CSS (custom properties, keyframes, animation-timeline: view()). app.js exists but contains only a console.log; the site is designed to work without JavaScript.
@@ -63,3 +90,9 @@ PRs welcome. Keep changes lightweight and CSS-first. Prefer progressive enhancem
 
 ## License
 MIT (as stated in the repository's existing README)
+
+</details>
+
+---
+
+<p align="center"><sub>README motion system · visual layer by RepoSignal · implementation details remain project-specific</sub></p>
